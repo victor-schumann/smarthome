@@ -1,0 +1,3 @@
+dotenv
+tapo
+python-telegram-bot
