@@ -129,7 +129,7 @@ async def main():
             drop_pending_updates=True,
             allowed_updates=None
         )
-        print("🤖 Irrigation bot running... Ctrl+C to stop")
+        print("🤖 Smarthome bot running... Ctrl+C to stop")
         await stop_event.wait()
         await app.updater.stop()
         await app.stop()
